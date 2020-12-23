@@ -1,0 +1,41 @@
+body{
+		    background-color:transparent;
+		    background-image: url(Paws/puppy.jpg);
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		    color:black;
+	        border: 10px solid black ;
+		}
+		span{
+			font-size: 60px;
+			color: black;
+		}
+		table, th, td{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		th, td{
+			padding: 15px;
+		}
+		th { text-align: left;} 
+		table{
+			background-color: tan;
+			font-weight: 600 ;
+			color: black;
+		}
+		#logoarea{
+			background: transparent;
+			border: 10px solid tan ;
+			height: 70px;
+		}
+		#content{
+			background: transparent;
+			background-repeat: no-repeat;
+		    background-size:cover; color:black;
+		    border:10px solid tan;
+		    margin:auto; 
+		    padding: 50px;
+		    width: auto;
+		    height: auto;
+		} 
+		

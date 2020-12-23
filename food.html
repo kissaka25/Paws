@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+#logoarea{
+        	background-color:transparent;
+        	border:10px tan;
+        	height:60px;
+         }
+
+ .topnav {
+  overflow: hidden;
+  background-color: tan;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.topnav a:hover {
+  background-color:maroon;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: maroon;
+  color: white;
+}
+
+/*table,th,td{
+      border:1px solid black;
+      border-collapse:collapse;
+     } */
+    th,td{
+      padding:15px;
+    }
+    th{text-align:left;}
+       table{
+         /*background-color:#FADCC2; */
+        font-weight:600;
+        color:black;
+       } 
+	</style>
+</head>
+<body>
+<div id="logoarea">
+	<img src="paw.jpg" width="50" height=50>
+	<span><b><i>PAWS </b></i></span>
+</div>
+<div class="topnav">
+  <a href="home.html">HOME</a>
+  <a href="about.html">ABOUT US</a>
+  <a  class="active" href="food.html">FOOD</a>
+  <a href="adopt.html">ADOPT A PET</a>
+</div>
+
+ <h1>FOOD AND SNACKS FOR YOUR PETS</h1><hr> 
+ 
+    
+    <p>You can purchase food and snacks for your pets.
+      <table><!-- <caption><h2>PETS AND SNACKS</h2></caption> -->
+         <tr>
+          <th>Type of Food</th>
+          <th>Type of Pet</th>
+          <th>Price</th>
+         </tr>
+         <tr>
+          <td><img src="dogfood.jpg" width="200" height="200"></td>
+          <td>Dogs</td>
+          <td>500Ksh</td>
+          <td><button onclick="buy()">Buy</button></td>
+         </tr>
+         <tr>
+          <td><img src="catfood.jpg" width="200" height="200"></td>
+          <td>Cats</td>
+          <td>500Ksh</td>
+          <td><button onclick="buy()">Buy</button></td>
+         </tr>
+         <!--<tr>
+           <td><img src="" width="200" height="200"></td>
+          <td>parrots</td>
+          <td>500Ksh</td>
+          <td><button onclick="buy()">Buy</button></td>
+         </tr>
+         <tr>
+          <td><img src="" width="200" height="200"></td>
+          <td>rabbits</td>
+          <td>500Ksh</td>
+          <td><button onclick="buy()">Buy</button></td>
+         </tr>
+         <tr>
+          <td><img src="" width="200" height="200"></td>
+          <td>goldfish</td>
+          <td>500Ksh</td>
+          <td><button onclick="buy()">Buy</button></td>
+         </tr>
+         <tr>
+          <td><img src="" width="200" height="200"></td>
+          <td>Hamsters</td>
+          <td>500Ksh</td>
+          <td><button onclick="buy()">Buy</button></td>
+         </tr> -->
+     </table>
+  </p>
+
+  <script type="text/javascript">
+    function buy() {
+  alert("Thank you for shopping with us");
+}
+
+  </script>
+</body>
+</html>
